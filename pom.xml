@@ -15,7 +15,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>16</java.version>
     </properties>
 
     <dependencies>
@@ -31,6 +31,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
+            <version>42.2.18</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
